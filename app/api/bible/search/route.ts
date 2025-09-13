@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-
+import verses from "@/data/web.json";
 // Tiny starter set (WEB wording or close). Replace/expand later.
 const VERSES: { ref: string; text: string }[] = [
   { ref: "Psalm 23:1", text: "Yahweh is my shepherd; I shall not want." },
